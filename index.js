@@ -1,9 +1,11 @@
 const fs = require('fs');
 const inquirer = require('inquirer');
 const SVG = require('./lib/svg');
-const {Circle, Triangle, Square} = require(./lib/shape)
+const {Circle, Triangle, Square} = require('./lib/shape');
 
 async function generateLogo(){
+
+    try { 
     inquirer.prompt([
         {
           type: 'input',
@@ -32,5 +34,13 @@ async function generateLogo(){
             name: 'bgColor',
             message: 'What color would you like the backgroud to be? Enter color keyword or hexadecimal code'
         }  
-    ]).then
+      ]);
+      
+
+
+
+    } catch (error) {
+        console.log('An error occurred:', error);
+    }
+
 }
