@@ -33,7 +33,7 @@ This app prompts the user to give criteria for creating an SVG and then renders 
 ### Installation
 Clone the repository to your local machine: 
 
-git@github.com:ErinHamrick/SVG-generator.git
+https://github.com/ErinHamrick/SVG-generator.git
 
 ## Usage
 Run 'node index.js' from the command line once you have navigated into the corresponding directory.
