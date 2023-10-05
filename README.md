@@ -16,7 +16,7 @@ Creates a command-line generated SVG file.
 This app prompts the user to give criteria for creating an SVG and then renders a new file.
 
 ## Preview
-(https://drive.google.com/file/d/1tBsp5yhO7e_9-Vi82O4MBE14JDv5tDf7/view)
+(https://drive.google.com/file/d/1sLuxm9v7biokd6KKl41yOgCl66hIrlqY/view)
 
 
 ## Features
